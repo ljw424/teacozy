@@ -1,0 +1,203 @@
+/*Page styles*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+/*Headers*/
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+
+/*Header and nav bar*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;}
+
+.nav-links li {
+    padding: 0px 20px;
+    text-decoration: underline;
+    list-style: none;
+    float: right;
+}
+
+/*Mission statement*/
+
+.mission {
+    height:700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 54px;
+    position: relative;
+}
+
+.mission-photo img {
+    width: 1200px;
+    height: 700px;
+}
+
+.mission-statement {
+    display: flex;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+    height: 80px; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-statement h2 {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.mission-statement h4 {
+    display: flex;
+}
+
+/*Tea of the Month*/
+
+
+.tea-of-the-month {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 160px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.container img {
+    height: 200px;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tea-image-gallery-top {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    margin-bottom: 100px;
+}
+
+.tea-image-gallery-bottom {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    margin-top: 90px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/*Locations*/
+
+.location {
+    height:700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 54px;
+    position: relative;
+}
+
+.location-photo  {
+    background-image: url(resources/img-locations-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    
+}
+
+.location-title {
+    margin-top: 15px;
+}
+
+#address {
+    display: flex;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.address-card {
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    background-color: black;
+    opacity: 1;
+    line-height: 60px;
+}
+
+
+/*Footer*/
+
+.contact {
+    height: 200px;
+    line-height: 3;
+    margin-bottom: 80px;
+    margin-top: 0px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
